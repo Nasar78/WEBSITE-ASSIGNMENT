@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <style>
+         * {
+        margin: 0px;
+      }
+      body {
+        background-image: url(https://wallpaperaccess.com/full/3124512.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      #nav {
+        display: flex;
+        height: 50px;
+        width: 100%;
+        background-color: black;
+      }
+      li {
+        display: inline-block;
+      }
+      #login {
+        /* border: 2px solid black; */
+        height: 50px;
+        width: 300px;
+        background-color: black;
+      }
+      #homebar {
+        /* border: 2px solid orange; */
+        height: 30px;
+        width: 1300px;
+        background-color: black;
+        margin-top: 15px;
+      }
+      #img {
+        /* border: 2px solid yellow; */
+        width: 70px;
+        height: 50px;
+        background-color: black;
+      }
+      button {
+        margin-top: 10px;
+        margin-left: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 15px;
+        height: 30px;
+      }
+      .a {
+        margin-left: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 25px;
+        color: white;
+      }
+      #sgn {
+        margin-left: 45px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      #contact{
+          height: 40px;
+          width: 280px;
+          
+          margin-left: 600px;
+          margin-top: 200px;
+          font-size: 20px;
+      }
+      #form{
+          margin-left: 600px;
+          margin-top: 50px;
+      }
+      form{
+         
+      }
+      .name{
+          
+          width: 340px;
+          height: 20px;
+      }
+      #texare{
+          width: 340px;
+      }
+      #submitb{
+         width: 80px;
+         height: 40px;
+         background-color: black;
+         color: white;
+         border-radius: 10px;
+     }
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div id="img" class="menu">
+          <img src="./logo2Done.jpg" alt="" height="50px" width="70px" />
+        </div>
+        <div id="homebar" class="menu">
+          <ul type="none">
+            <li><a href="./HOME.html" class="a">Home</a></li>
+            <li><a href="./About US.html" class="a">About Us</a></li>
+            <li><a href="" class="a">Services</a></li>
+            <li><a href="./Contact US.html" class="a">Contact Us</a></li>
+          </ul>
+        </div>
+        <button><a href="./Login.html">Login</a></button>
+        <button id="sgn"><a href="./SIGNUP.html">Sign Up</a></button>
+      </div>
+      <div id="contact">
+          <h1 id="h1con">CONTACT US</h1>
+      </div>
+      <div id="form">
+      <form action="">
+          <input type="text" placeholder="Enter Your Name" class="name" ><br><br>
+          <input type="emai" placeholder="Enter Your Email" id="email" class="name"><br><br>
+          <label for="" style="color: white;">Whats This about</label><br>
+          <input list="Branches" class="name">
+          <datalist id="Branches">
+            <option value="">---select---</option>
+            <option value="--------"></option>
+            <option value="--------"></option>
+            <option value="--------"></option>
+          </datalist><br><br>
+          <textarea name="" id="texare" cols="30" rows="10"></textarea><br><br>
+          <input type="button" value="SUBMIT" id="submitb">
+      </form>
+      </div>
+    
+</body>
+</html>
